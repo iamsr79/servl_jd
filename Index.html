@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Servlet with JDBC</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div>
+        <form name="form1" target="output">
+            <table>
+                <tr>
+                    <td>Enter Rlno:</td><td><input type="text" name="txtRlno"></td>
+                </tr>
+                <tr>
+                    <td>Enter Name:</td><td><input type="text" name="txtName"></td>
+                </tr>
+                <tr>
+                    <td>Enter City: </td><td><input type="text" name="txtCity"></td>
+                </tr>
+            </table>
+            <button type="submit" formaction="/ServletDemo9/InsertData">Insert</button>
+            <button type="submit" formaction="/ServletDemo9/UpdateData">Update</button>
+            <button type="submit" formaction="/ServletDemo9/DeleteData">Delete</button>
+            <button type="submit" formaction="/ServletDemo9/ViewData">View</button>
+        </form>
+    </div>
+    <iframe name="output"></iframe>
+</body>
+</html>
